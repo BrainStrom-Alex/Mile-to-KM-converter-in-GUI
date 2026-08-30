@@ -2,7 +2,7 @@ from tkinter import *
 
 window = Tk()
 window.title("Mile to KM Convertor")
-window.minsize(width=400, height=200)
+window.minsize(width=200, height=100)
 window.config(padx=20, pady=20)
 
 
@@ -29,7 +29,7 @@ label3.grid(row=1, column=1)
 label4 = Label(text="KM")
 label4.grid(row=1, column=2)
 
-button = Button(text="CONVERT", command=converter)
+button = Button(text="CONVERT", command=converter, width=10)
 button.grid(row=2, column=1)
 
 
